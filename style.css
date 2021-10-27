@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+h1 {
+  color: #616163;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight:bold;
+  line-height: 20px;
+}
+
+h2 {
+    color: #4d4f58;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+h3 {
+    color: #495485;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 5px;
+    margin: 30px 50px;
+}
+body {
+  background-color: #e9e9f8dc;
+  color: #3f3f46;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+a {
+  color:#9595df;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #1f1f20;
+}
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+.card {
+  background-color: white;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#profile_pic {
+  border-radius: 50%;
+}
+
+.btn-grey {
+   background-color: #444768;
+    color: white;
+    padding: 10px 20px;
+    margin: auto 50px;
+    border-radius: 4px;
+}
+
+ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+ul {
+  padding: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
